@@ -1,0 +1,2 @@
+import{useEffect,useState}from"react";import api from"../../services/api";
+const Transactions=()=>{const[t,setT]=useState([]);useEffect(()=>{api.get("/transactions").then(r=>setT(r.data.data))},[]);return <div className="p-8"><h1 className="text-3xl font-black">Transactions</h1><div className="card mt-6 overflow-hidden"><table className="w-full text-sm"><tbody>{t.map(x=><tr className="border-t" key={x.id}><td className="p-4">{x.referenceNumber}</td><td>{x.type}</td><td>{x.amount}</td><td>{x.status}</td></tr>)}</tbody></table></div></div>};export default Transactions;
