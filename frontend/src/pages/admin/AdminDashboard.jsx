@@ -1,0 +1,2 @@
+import{useEffect,useState}from"react";import api from"../../services/api";
+const AdminDashboard=()=>{const[d,setD]=useState(null);useEffect(()=>{api.get("/admin/dashboard").then(r=>setD(r.data.data))},[]);if(!d)return"Loading...";return <div className="p-8"><h1 className="text-3xl font-black">Admin Dashboard</h1><div className="grid gap-5 md:grid-cols-4 mt-6">{Object.entries(d).map(([k,v])=><div className="card p-6" key={k}><p>{k}</p><h2 className="text-3xl font-black">{v}</h2></div>)}</div></div>};export default AdminDashboard;
