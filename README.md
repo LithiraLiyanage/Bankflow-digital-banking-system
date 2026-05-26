@@ -31,11 +31,19 @@
 
 <div align="center">
 
-<img src="screenshots/bankflow-preview.png" alt="BankFlow Project Preview" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=700&color=2563EB&center=true&vCenter=true&width=900&lines=BankFlow+Digital+Banking+Dashboard;Secure+Transactions+%7C+JWT+Auth+%7C+Audit+Logs;Fraud+Detection+%7C+PDF+Statements+%7C+Admin+Analytics" alt="BankFlow Animated Preview Text" />
+
+<br/>
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:2563EB,50:06B6D4,100:10B981&text=BankFlow%20Digital%20Banking&fontColor=ffffff&fontSize=42&desc=Spring%20Boot%20%7C%20React%20%7C%20JWT%20%7C%20PostgreSQL%20%7C%20Fraud%20Detection&descSize=18&animation=fadeIn" alt="BankFlow AI Banking Preview" width="100%" />
+
+<br/>
+<br/>
+
+<img src="screenshots/bankflow-preview.png" alt="BankFlow Project Screenshot" width="100%" />
 
 </div>
-
-> Add your screenshot as `screenshots/bankflow-preview.png`.
 
 ---
 
