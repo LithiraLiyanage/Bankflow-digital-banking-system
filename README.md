@@ -245,12 +245,6 @@ GET /api/admin/audit-logs
 
 ---
 
-## 📌 CV Bullet
-
-> Developed BankFlow, a secure digital banking system using Spring Boot and React with JWT authentication, account management, deposits, withdrawals, fund transfers, transaction history, fraud detection rules, audit logs, PDF statement export, Swagger documentation, and role-based dashboards.
-
----
-
 ## 👨‍💻 Author
 
 <div align="center">
