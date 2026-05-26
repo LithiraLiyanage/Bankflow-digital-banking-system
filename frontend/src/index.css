@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card{ @apply rounded-2xl border border-slate-200 bg-white shadow-sm; }
+.input{ @apply w-full rounded-xl border border-slate-200 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-100; }
+.btn-primary{ @apply rounded-xl bg-primary px-5 py-3 font-bold text-white hover:bg-primaryDark; }
+.btn-secondary{ @apply rounded-xl border border-slate-200 bg-white px-5 py-3 font-bold text-slate-700; }
